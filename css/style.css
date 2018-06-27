@@ -35,3 +35,12 @@ small {
   color:white;
   padding: 10px;
 }
+
+#grupo_botones {
+  padding: 30% 3%;
+  margin: 10px 2px;
+}
+#body_menu{
+  background: #DDDEE0;
+}
+
