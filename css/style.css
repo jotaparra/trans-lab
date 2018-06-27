@@ -1,5 +1,5 @@
 * {
-  padding-top: 1%;
+  padding-top: 0%;
 }
 
 #body_loggin{
@@ -16,6 +16,7 @@
 #logo_login {
   width: 50%;
   text-align: center;
+  padding-top: 10%;
 }
 
 .center {
@@ -40,7 +41,31 @@ small {
   padding: 30% 3%;
   margin: 10px 2px;
 }
-#body_menu{
+.body_celeste{
   background: #DDDEE0;
 }
 
+.usuario_img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 50%;
+  margin-top: 10%;
+  background-color: #F6A800;
+}
+
+
+.container_profile {
+  background-color: #F6A800;
+  margin: 0;
+  padding: 0%;
+}
+
+.relleno {
+  padding: 10%
+
+}
+
+.margen {
+  margin: 8%;
+}
