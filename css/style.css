@@ -1,1 +1,37 @@
-/* YeyeYeee código aquí */
+* {
+  padding-top: 1%;
+}
+
+#body_loggin{
+  background: #3E3F41;
+}
+.container-fluid{ 
+}
+.btn {
+  background-color: #F6A800;
+  text-align: center;
+  width: 100%;
+}
+
+#logo_login {
+  width: 50%;
+  text-align: center;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+h2 {
+  text-align: center;
+  color: #F6A800;
+  padding: 10px;
+}
+
+small {
+  text-align: center;
+  color:white;
+  padding: 10px;
+}
