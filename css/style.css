@@ -2,12 +2,11 @@
   padding-top: 0%;
 }
 
-#body_loggin{
+.body_loggin{
   background: #3E3F41;
 }
-.container-fluid{ 
-}
-.btn {
+
+.btn-primary {
   background-color: #F6A800;
   text-align: center;
   width: 100%;
@@ -62,10 +61,27 @@ small {
 }
 
 .relleno {
-  padding: 10%
-
+  padding: 5%
 }
 
 .margen {
   margin: 8%;
+}
+
+.prueba {
+  background-color: #F6A800;
+  width: 100%;
+}
+.amarillo {
+  background-color: #F6A800;
+  padding-bottom: 7%; 
+}
+
+h3 {
+  text-align: center;
+  color: white;
+}
+
+.text_center {
+  text-align: center;
 }
