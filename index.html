@@ -16,35 +16,33 @@
   <div class="container-fluid">
     <div class="container">
       <div class="row">
-        <div class="col-sm">
-        </div>
-        <div class="col-sm">
+       <!-- "col-md-6 offset-md-3" este es el punto de inflexión que hace que sea first mobile, no es necesario colocar 3 columnas -->
+        <div class="col-md-6 offset-md-3"> 
           <div>
 
             <img id="logo_login" class="center" src="docs/imagen.png" alt="Logotipo de translab">
             <h2>TRANS-LAB</h2>
           </div>
-          <form class="login">
+          <form onsubmit="return validar()" action="menu.html" class="login">
             <div class="form-group">
-              <label for="exampleInputEmail1" ></label>
-              <input type="email" class="form-control"  id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)[.][a-zA-Z]{1,5}">
-             
+              <label for="exampleInputEmail1"></label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" >
+
               <!--  
                   <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
             </div>
             <div class="form-group">
               <label for="exampleInputPassword1"></label>
-              <input type="password" maxlength="8" class="form-control" id="exampleInputPassword1" placeholder="Password" pattern="[0-9]{8}">
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
             </div>
-            <a type="submit" class="btn center btn-primary" href="menu.html">INICIAR SESIÓN</a>
+            <input type="submit" class="btn center btn-primary" value="INICIAR SESIÓN">
             <small>¿OLvidaste tu constraseña?</small>
           </form>
           <div>
 
           </div>
         </div>
-        <div class="col-sm">
-        </div>
+        
       </div>
     </div>
   </div>

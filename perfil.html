@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,12 +10,13 @@
     crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="body_celeste">
-    <div class="row ">
-      <div class="col-sm">
-      </div>
-      <div class="col-sm">
-        <div class="amarillo">
+
+<body onload="cargar_usuario()" class="body_celeste">
+  <div class="row ">
+    <div class="col-sm">
+    </div>
+    <div class="col-sm">
+      <div class="amarillo">
         <div class="pos-f-t">
           <div class="collapse" id="navbarToggleExternalContent">
             <div class="bg-dark p-4">
@@ -34,25 +36,24 @@
           <img class="usuario_img" src="docs/profile.png" alt="usuario">
         </div>
       </div>
-        <div class="relleno">
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-        </div>
-        <div>
-          <input class="center" type="text" placeholder="   número de tarjeta">
-        </div>
-        <div class="margen">
-          <a button type="button" class="btn btn-primary btn-lg btn-block" href="perfil.html">AGREGAR TARJETA</a>
-        </div>
-        <div>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-        </div>
+      <div class="relleno">
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
       </div>
-      <div class="col-sm">
+      <div>
+        <input class="center" type="text" placeholder="Número de tarjeta" id="tarjeta">
+      </div>
+      <div class="margen">
+        <button class="btn btn-primary btn-lg btn-block" onclick="agregar_tarjeta()">AGREGAR TARJETA</button>
+      </div>
+      <div>
+        <ul class="list-group" style="padding-bottom: 50px" id="tarjetas">
+          <li class="list-group-item">Cras justo odio</li>
+        </ul>
       </div>
     </div>
+    <div class="col-sm">
+    </div>
+  </div>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"

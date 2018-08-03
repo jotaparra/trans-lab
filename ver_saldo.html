@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body class="body_celeste">
+<body onload="cargar_tarjetas()" class="body_celeste">
   <div class="container">
     <div class="row">
       <div class="col-sm">
@@ -31,7 +31,32 @@
             </button>
           </nav>
         </div>
+
+        <div class="form-group">
+          <!-- Para que sirve label? -->
+            <label for="exampleInputEmail1" ></label> 
+            <input type="text" class="form-control" placeholder="Ingresa tu número de tarjeta" id="tarjeta">
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <label class="input-group-text" for="inputGroupSelect01">Options</label>
+                </div>
+                <select class="custom-select" id="inputGroupSelect01">
+                </select>
+              </div>  
+              </br>
+            </br>
+          </br>
+
+              <button class="btn btn-warning center" onclick="ver_saldo()">VER SALDO</button>
+              <br>
+              <div class="card center" style="width: 18rem;">
+                  <div class="card-body">
+                    <h5 class="card-title" align="center">Saldo</h5>
+                    <p class="card-text" id="resultado"></p>
+                  </div>
+                </div>
       </div>
+    </div>
       <div class="col-sm">
       </div>
     </div>
